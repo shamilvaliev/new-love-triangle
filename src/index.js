@@ -7,7 +7,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   if (preferences.length < 3) {
     return 0;
   }
- debugger;
+
   for (let i = 0; i <preferences.length; i++) {
     let loversTarget =  preferences[preferences[preferences[i] -1] -1];
     let pair = loversTarget === i+1;
